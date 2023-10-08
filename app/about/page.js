@@ -10,8 +10,14 @@ import {
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const aboutUS = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     // animation
     <div>
@@ -23,7 +29,7 @@ const aboutUS = () => {
         {/* Personal Information */}
 
         <div>
-          <div className="flex gap-10">
+          <div data-aos="fade-left" data-aos-duration="1000" className="flex gap-10">
             <div className="gap-4 mt-52  ">
               <p className="text">*Personal Information*</p>
               <p className="mt-2 mb-2">
@@ -60,15 +66,15 @@ const aboutUS = () => {
               <span className="mt-2"> Magura polytechnic Institute</span>
             </div>
           </div>
-          <div className="-mt-24 gap-5 flex">
+          <div data-aos="zoom-out-up" data-aos-duration="1000" className="-mt-24 gap-5 flex  ">
             <Link href="https://www.linkedin.com/in/chamok-barmon-1a0571244/">
-              <FontAwesomeIcon className="w-10 h-10  top " icon={faLinkedin} />
+              <FontAwesomeIcon className="w-7 h-10  top " icon={faLinkedin} />
             </Link>
             <Link href="https://github.com/chamokbarmon">
-              <FontAwesomeIcon className="w-10 h-10  top" icon={faGithub} />
+              <FontAwesomeIcon className="w-8 h-10  top" icon={faGithub} />
             </Link>
             <Link href="https://www.facebook.com/chamok.barmon.1/">
-              <FontAwesomeIcon className="w-10 h-10  top " icon={faFacebook} />
+              <FontAwesomeIcon className="w-8 h-10  top " icon={faFacebook} />
             </Link>
 
             <Link href="https://app.netlify.com/teams/chamokbarmon/overview">

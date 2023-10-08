@@ -25,25 +25,23 @@ const menubar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-sky-950 rounded-box w-52"
           >
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
+           <Link className=" hover:text-red-500" href="/">
+            Home
+          </Link>
+          <Link className=" hover:text-red-500" href="/about">
+            About us
+          </Link>
+          <Link className=" hover:text-red-500" href="/project">
+            Project
+          </Link>
+          <Link className=" hover:text-red-500" href="/skills">
+            Skills
+          </Link>
+          <Link className=" hover:text-red-500" href="/blog">
+            Blog
+          </Link>
           </ul>
         </div>
         <img
