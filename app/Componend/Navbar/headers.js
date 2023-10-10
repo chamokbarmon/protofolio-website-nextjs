@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-const menubar = () => {
+const Menubar = () => {
   return (
     <div className="container-full navbar  bg-sky-950 text-white">
       <div className="navbar-start">
@@ -81,4 +81,4 @@ const menubar = () => {
   );
 };
 
-export default menubar;
+export default Menubar;
