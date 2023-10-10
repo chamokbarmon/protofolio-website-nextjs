@@ -9,7 +9,7 @@ const Project = () => {
     AOS.init();
   }, []);
   return (
-    <div className=" bg-sky-950 container-full p-5">
+    <div className="container-full bg-sky-950 container-full p-5">
       <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 ml-10  gap-9 ">
         <div
           data-aos="fade-right"
@@ -99,9 +99,8 @@ const Project = () => {
         </div>
         <div
           data-aos="fade-left"
-          data-aos-anchor="#example-anchor"
-          data-aos-offset="500"
-          data-aos-duration="500"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
           className="card w-96 bg-base-100 shadow-xl  p-2"
         >
           <figure>
@@ -230,9 +229,9 @@ const Project = () => {
         </div>
 
         <div
-        data-aos="fade-left"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
           className="card w-96 bg-base-100 shadow-xl  p-2"
         >
           <figure>

@@ -18,10 +18,22 @@ const aboutUS = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+
+  const openMailPopup=()=>{
+    const emailAddress = 'example@example.com';
+    const subject = 'Hello How are you';
+  
+  
+    const mailtoURL = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}`;
+  
+  
+    window.open(mailtoURL, '_blank');
+
+}
   return (
     // animation
-    <div>
-      <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 min-h-screen  bg-sky-950 text-white ">
+    <div className="container-full">
+      <div className=" grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 min-h-screen  bg-sky-950 text-white ">
         <div>
           <Lottie className=" mt-14 " animationData={animation} />
         </div>
@@ -66,7 +78,7 @@ const aboutUS = () => {
               <span className="mt-2"> Magura polytechnic Institute</span>
             </div>
           </div>
-          <div data-aos="zoom-out-up" data-aos-duration="1000" className="-mt-24 gap-5 flex  ">
+          <div data-aos="zoom-in" data-aos-duration="1000" className="-mt-24 gap-5 flex  ">
             <Link href="https://www.linkedin.com/in/chamok-barmon-1a0571244/">
               <FontAwesomeIcon className="w-7 h-10  top " icon={faLinkedin} />
             </Link>
@@ -82,6 +94,14 @@ const aboutUS = () => {
               <img
                 className="w-20 h-10  text-white imgTop"
                 src="https://i.ibb.co/WPtpRss/Netlify-logo-svg.png"
+              />
+            </Link>
+            <Link href=''>
+              {" "}
+              <img
+                onClick={openMailPopup}
+                className="w-10 h-8 mt-2 text-white imgTop"
+                src="https://www.computerhope.com/jargon/g/gmail.png"
               />
             </Link>
           </div>

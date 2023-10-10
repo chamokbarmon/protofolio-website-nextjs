@@ -4,19 +4,32 @@ import "./banar.css";
 import Typewriter from "typewriter-effect";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Link from "next/link";
 const Banar = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+  const openMailPopup=()=>{
+    const emailAddress = 'chamokjobmail33@gmail.com';
+    const subject = 'Hello';
+  
+  
+    const mailtoURL = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}`;
+  
+  
+    window.open(mailtoURL, '_blank');
+
+}
   return (
-    <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 text-white min-h-screen bg-sky-950 ">
+  <div className=" bg-sky-950 ">
+      <div className="container-full grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1  text-white ">
       <div
         data-aos="fade-right"
         data-aos-duration="2000"
-        className="m-auto align-middle justify-center mt-32 ml-10"
+        className="m-auto  mt-32 ml-10"
       >
         <p className="italic ">Hello Dear,</p>
-        <p className="text-4xl">I AM CHAMOK BAMRON</p>
+        <p className="text-4xl">I AM CHAMOK BARMON</p>
         <div className="mt-2">
           <Typewriter
             options={{
@@ -37,15 +50,17 @@ const Banar = () => {
           with leadership abilities to meet client needs and exceed their
           expectations.
         </p>
+        <button className="rounded-xl border p-2 outline-1  mt-5"><Link href="/contact"  >Contact us</Link></button>
+        <button className="rounded-xl border p-2 outline-1 ml-2 mt-5"><Link href="/"  onClick={openMailPopup}  >Mail me </Link></button>
       </div>
-      <div data-aos="zoom-in-up"  data-aos-duration="1000" className="m-auto justify-center align-middle mt-20 ">
+      <div data-aos="zoom-in-up"  data-aos-duration="1000" className="ml-10 mt-16 h-screen bg-sky-950">
         <img
           className="hh ml-10 "
           src="https://i.ibb.co/G5SgVBy/chamok-1.png"
           alt="myImg"
         />
       </div>
-      <div data-aos="fade-left" data-aos-duration="1000" className="m-auto align-middle justify-center mt-48 ">
+      <div data-aos="fade-left" data-aos-duration="1000" className="m-auto mt-48 bg-sky-950">
         <div>
           1+
           <br />
@@ -58,6 +73,7 @@ const Banar = () => {
         </div>
       </div>
     </div>
+  </div>
   );
 };
 

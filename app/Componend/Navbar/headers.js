@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const menubar = () => {
   return (
-    <div className="navbar bg-sky-950 text-white">
+    <div className="container-full navbar  bg-sky-950 text-white">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -25,7 +25,7 @@ const menubar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-sky-950 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-sky-950 rounded-box"
           >
            <Link className=" hover:text-red-500" href="/">
             Home
@@ -42,6 +42,9 @@ const menubar = () => {
           <Link className=" hover:text-red-500" href="/blog">
             Blog
           </Link>
+          <Link className=" hover:text-red-500" href="/contact">
+          Contact us
+          </Link>
           </ul>
         </div>
         <img
@@ -49,8 +52,8 @@ const menubar = () => {
           src="https://i.ibb.co/tQvbtWj/chamok-removebg-preview.png"
         ></img>
       </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 gap-10">
+      <div className="container-full navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal px-1 text-base cursor-pointer  gap-10">
           <Link className=" hover:text-red-500" href="/">
             Home
           </Link>
@@ -66,10 +69,13 @@ const menubar = () => {
           <Link className=" hover:text-red-500" href="/blog">
             Blog
           </Link>
+          <Link className=" hover:text-red-500" href="/contact">
+          Contact us
+          </Link>
         </ul>
       </div>
       <div className="navbar-end">
-        <Link href="/resume">Resume</Link>
+        <Link href="https://drive.google.com/file/d/1qVUCYGDp3YANoZBsFtRSggLiskjTIFam/view?usp=sharing" target="blank" className="border outline-1 p-2 rounded-2xl">Resume</Link>
       </div>
     </div>
   );
