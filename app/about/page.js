@@ -17,20 +17,20 @@ import "aos/dist/aos.css";
 
 import Image from "next/image";
 
-const aboutUS = () => {
+const AboutUS = () => {
   useEffect(() => {
     AOS.init();
   }, []);
 
   const openMailPopup=()=>{
-    const emailAddress = 'chamokjobmail33@gmail.com';
-    const subject = 'Hello How are you';
+    const emailAddress = "chamokjobmail33@gmail.com";
+    const subject = "Hello How are you";
   
   
     const mailtoURL = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}`;
   
   
-    window.open(mailtoURL, '_blank');
+    window.open(mailtoURL, "_blank");
 
 }
   return (
@@ -76,7 +76,7 @@ const aboutUS = () => {
             <div className="mt-52 ">
               <p className="text">*Education Information*</p>
               <p className="mt-2">SSC--2019</p>
-              <span className="mt-2"> Gobindagonj Gov't High School</span>
+              <span className="mt-2"> Gobindagonj Gov"t High School</span>
               <p className="mt-2"> Diploma in computer engineering <br/> 2023</p>
               <span className="mt-2"> Magura polytechnic Institute</span>
             </div>
@@ -99,9 +99,10 @@ const aboutUS = () => {
                 src="https://i.ibb.co/WPtpRss/Netlify-logo-svg.png"
                 width={100}
                 height={100}
+                alt="logo"
               />
             </Link>
-            <Link href=''>
+            <Link href="">
               {" "}
               <Image
                width={100}
@@ -109,6 +110,7 @@ const aboutUS = () => {
                 onClick={openMailPopup}
                 className="w-10 h-8 text-white mt-32 "
                 src="https://www.computerhope.com/jargon/g/gmail.png"
+                alt="logo"
               />
             </Link>
           </div>
@@ -118,4 +120,4 @@ const aboutUS = () => {
   );
 };
 
-export default aboutUS;
+export default AboutUS;

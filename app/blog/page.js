@@ -332,7 +332,7 @@ const Blog = () => {
                   while still performing rapidly. Organizations also use MongoDB
                   for its ad-hoc queries, indexing, load balancing, aggregation,
                   server-side JavaScript execution and other features.
-                  Structured Query Language (SQL) is a standardized programming
+                  Structured Query Language SQL is a standardized programming
                   language that is used to manage relational databases. SQL
                   normalizes data as schemas and tables, and every table has a
                   fixed structure. Instead of using tables and rows as in
@@ -392,28 +392,28 @@ const Blog = () => {
               <div className="modal-box w-max max-w-5xl  bg-sky-950 text-white">
                 <h3 className="font-bold text-lg">What is a SQL database?</h3>
                 <p className="py-4">
-                  SQL, which stands for “Structured Query Language,” is the
+                  SQL which stands for Structured Query Language is the
                   programming language thats been widely used in managing data
-                  in relational database management systems (RDBMS) since the
-                  1970s. In the early years, when storage was expensive, SQL
+                  in relational database management systems  since the
+                  1970s. In the early years, when storage was expensive SQL
                   databases focused on reducing data duplication. Fast-forward
                   to today, and SQL is still widely used for querying relational
                   databases, where data is stored in rows and tables that are
                   linked in various ways. One table record may link to one other
                   or to many others, or many table records may be related to
-                  many records in another table. These relational databases,
+                  many records in another table. These relational databases
                   which offer fast data storage and recovery, can handle great
                   amounts of data and complex SQL queries.
                 </p>
                 <h3 className="font-bold text-lg">What is a NoSQL database?</h3>
                 <p className="py-4">
                   NoSQL is a non-relational database, meaning it allows
-                  different structures than a SQL database (not rows and
-                  columns) and more flexibility to use a format that best fits
-                  the data. The term “NoSQL” was not coined until the early
-                  2000s. It doesn’t mean the systems don’t use SQL, as NoSQL
+                  different structures than a SQL database not rows and
+                  columns and more flexibility to use a format that best fits
+                  the data. The term NoSQL was not coined until the early
+                  2000s. It doesn't mean the systems don't use SQL, as NoSQL
                   databases do sometimes support some SQL commands. More
-                  accurately, “NoSQL” is sometimes defined as “not only SQL.”
+                  accurately NoSQL is sometimes defined as “not only SQL
                 </p>
                 <div className="modal-action">
                   <form method="dialog">
@@ -466,13 +466,13 @@ const Blog = () => {
                   standard markup language for creating Web pages HTML describes
                   the structure of a Web page HTML consists of a series of
                   elements HTML elements tell the browser how to display the
-                  content HTML elements label pieces of content such as "this is
-                  a heading", "this is a paragraph", "this is a link", etc.
+                  content HTML elements label pieces of content such as this is
+                  a heading this is a paragraph this is a link etc.
                 </p>
                 <h3 className="font-bold text-lg">What is CSS?</h3>
                 <p className="py-4">
                   CSS stands for Cascading Style Sheets CSS describes how HTML
-                  elements are to be displayed on screen, paper, or in other
+                  elements are to be displayed on screen paper or in other
                   media CSS saves a lot of work. It can control the layout of
                   multiple web pages all at once External stylesheets are stored
                   in CSS files

@@ -33,9 +33,9 @@ const Project = () => {
               <div className="badge badge-secondary">NEW</div>
             </h2>
             <p className="text-justify">
-              I've created a social media platform using React.js and Tailwind
-              CSS, with MongoDB for data storage. Users can post content and
-              view posts on this website.
+              I have created a social media platform using React.js and Tailwind
+              CSS with MongoDB for data storage. Users can post content and view
+              posts on this website.
             </p>
             <div className="card-actions justify-end">
               <div className="badge badge-outline font-bold">
@@ -65,8 +65,8 @@ const Project = () => {
         >
           <figure>
             <Image
-             height={500}
-             width={600}
+              height={500}
+              width={600}
               className="h-52 rounded"
               src="https://i.ibb.co/2gt3MgT/Capture3.png"
               alt="benar"
@@ -78,8 +78,8 @@ const Project = () => {
               <div className="badge badge-secondary">NEW</div>
             </h2>
             <p className="text-justify">
-              I've built a car marketplace with React.js, Firebase, MongoDB, and
-              Tailwind CSS. Buyers can shop for cars, ensuring secure
+              I have built a car marketplace with React.js, Firebase, MongoDB,
+              and Tailwind CSS. Buyers can shop for cars, ensuring secure
               transactions and an appealing, responsive design.
             </p>
             <div className="card-actions justify-end">
@@ -110,8 +110,8 @@ const Project = () => {
         >
           <figure>
             <Image
-             height={500}
-             width={600}
+              height={500}
+              width={600}
               className="h-52 rounded"
               src="https://i.ibb.co/ypkCPFD/Capture6.png"
               alt="banar"
@@ -155,8 +155,8 @@ const Project = () => {
         >
           <figure>
             <Image
-             height={500}
-             width={600}
+              height={500}
+              width={600}
               className="h-52 rounded"
               src="https://i.ibb.co/JCPYF6B/Capture5.png"
               alt="banar"
@@ -200,8 +200,8 @@ const Project = () => {
         >
           <figure>
             <Image
-             height={500}
-             width={600}
+              height={500}
+              width={600}
               className="h-52 rounded"
               src="https://i.ibb.co/GvbVNFv/Capture2.png"
               alt="banar"
@@ -247,8 +247,8 @@ const Project = () => {
         >
           <figure>
             <Image
-             height={500}
-             width={600}
+              height={500}
+              width={600}
               className="h-52 rounded"
               src="https://i.ibb.co/vj5kPXg/Capture7.png"
               alt="banar"
@@ -292,8 +292,8 @@ const Project = () => {
         >
           <figure>
             <Image
-             height={500}
-             width={600}
+              height={500}
+              width={600}
               className="h-52 rounded"
               src="https://i.ibb.co/vdjL8RQ/Capture8.png"
               alt="banar"
