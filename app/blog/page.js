@@ -63,14 +63,14 @@ const Blog = () => {
                 <h3 className="font-bold text-lg">What is React js ?</h3>
                 <p className="py-4">
                   The React.js framework is an open-source JavaScript framework
-                  and library developed by Facebook. It's used for building
+                  and library developed by Facebook. Its used for building
                   interactive user interfaces and web applications quickly and
                   efficiently with significantly less code than you would with
                   vanilla JavaScript. In React, you develop your applications by
                   creating reusable components that you can think of as
                   independent Lego blocks. These components are individual
                   pieces of a final interface, which, when assembled, form the
-                  application's entire user interface.
+                  applications entire user interface.
                 </p>
                 <div className="modal-action">
                   <form method="dialog">
@@ -193,10 +193,10 @@ const Blog = () => {
                   A common task for a web server can be to open a file on the
                   server and return the content to the client. Here is how PHP
                   or ASP handles a file request: Sends the task to the
-                  computer's file system. Waits while the file system opens and
+                  computers file system. Waits while the file system opens and
                   reads the file. Returns the content to the client. Ready to
                   handle the next request. Here is how Node.js handles a file
-                  request: Sends the task to the computer's file system. Ready
+                  request: Sends the task to the computers file system. Ready
                   to handle the next request. When the file system has opened
                   and read the file, the server returns the content to the
                   client. Node.js eliminates the waiting, and simply continues
@@ -338,7 +338,7 @@ const Blog = () => {
                   fixed structure. Instead of using tables and rows as in
                   relational databases, as a NoSQL database, the MongoDB
                   architecture is made up of collections and documents.
-                  Documents are made up of key-value pairs -- MongoDB's basic
+                  Documents are made up of key-value pairs -- MongoDBs basic
                   unit of data. Collections, the equivalent of SQL tables,
                   contain document sets. MongoDB offers support for many
                   programming languages, such as C, C++, C#, Go, Java, Python,
@@ -393,7 +393,7 @@ const Blog = () => {
                 <h3 className="font-bold text-lg">What is a SQL database?</h3>
                 <p className="py-4">
                   SQL, which stands for “Structured Query Language,” is the
-                  programming language that's been widely used in managing data
+                  programming language thats been widely used in managing data
                   in relational database management systems (RDBMS) since the
                   1970s. In the early years, when storage was expensive, SQL
                   databases focused on reducing data duplication. Fast-forward

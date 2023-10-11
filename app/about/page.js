@@ -1,4 +1,6 @@
 "use client";
+"use react-hooks/rules-of-hooks"
+import { useEffect } from "react";
 import animation from "../../public/about.json";
 import Lottie from "lottie-react";
 import "./about.css";
@@ -12,7 +14,7 @@ import {
 import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+
 import Image from "next/image";
 
 const aboutUS = () => {
