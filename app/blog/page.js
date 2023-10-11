@@ -93,7 +93,7 @@ const Blog = () => {
                 height={400}
                 width={450}
                 className="rounded-2xl h-52"
-                src="https://miro.medium.com/v2/resize:fit:1358/1*G-0bFJ1Q_jffKghQQ3nwrQ.jpeg"
+                src="https://i.ibb.co/Tk4rZJd/1-G-0b-FJ1-Q-jff-Kgh-QQ3nwr-Q.jpg"
                 alt="javascript"
               />
 
