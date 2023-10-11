@@ -5,6 +5,7 @@ import Typewriter from "typewriter-effect";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Link from "next/link";
+import Image from "next/image";
 const Banar = () => {
   useEffect(() => {
     AOS.init();
@@ -54,10 +55,12 @@ const Banar = () => {
         <button className="rounded-xl border p-2 outline-1 ml-2 mt-5"><Link href="/"  onClick={openMailPopup}  >Mail me </Link></button>
       </div>
       <div data-aos="zoom-in-up"  data-aos-duration="1000" className="ml-10 mt-16 h-screen bg-sky-950">
-        <img
+        <Image
           className="hh ml-10 "
           src="https://i.ibb.co/G5SgVBy/chamok-1.png"
-          alt="myImg"
+          alt="myImage"
+          width={300}
+          height={200}
         />
       </div>
       <div data-aos="fade-left" data-aos-duration="1000" className="m-auto mt-48 bg-sky-950">

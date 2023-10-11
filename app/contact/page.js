@@ -43,7 +43,7 @@ const Contact = () => {
    
   };
   return (
-    <div className="container-full  bg-sky-950  grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1">
+    <div className="container-full h-screen  bg-sky-950  grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1">
       <div className="flex h-96">
         <Lottie className="mt-16" animationData={animation} />
         <Lottie className=" mt-16  " animationData={animation1} />

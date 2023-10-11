@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 
 const Menubar = () => {
@@ -47,10 +48,13 @@ const Menubar = () => {
           </Link>
           </ul>
         </div>
-        <img
-          className="btn btn-ghost rounded  normal-case h-16 w-30"
-          src="https://i.ibb.co/tQvbtWj/chamok-removebg-preview.png"
-        ></img>
+        <Image
+          className="btn btn-ghost rounded  normal-case "
+          width={100}
+          height={100}
+          src="https://i.ibb.co/YP1sr8d/istockphoto-463352019-170667a-removebg-preview.png"
+          alt="logo"
+        ></Image>
       </div>
       <div className="container-full navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-base cursor-pointer  gap-10">

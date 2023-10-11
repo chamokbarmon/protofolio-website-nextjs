@@ -1,16 +1,29 @@
 "use client";
-import React from "react";
+import Image from "next/image";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Blog = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div>
-      <div className="grid lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 sm:bl gap-10 bg-sky-950 ">
-        <div className="ml-5 mt-10">
-          <div className="container-full bg-sky-950 h-screen text-white">
-            <div className="card relative w-96 h-62 bg-base-200  border">
-              <img
-                className="rounded-2xl h-52"
+      <div className="grid lg:grid-cols-3 overflow-hidden  md:grid-cols-2 sm:grid-cols-1 sm:bl gap-10 bg-sky-950 ">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          className="ml-5 mt-10"
+        >
+          <div className="container-full bg-sky-950  text-white">
+            <div className="card  w-96 h-62 bg-base-200  border">
+              <Image
+                className="rounded-2xl "
                 src="https://i.ibb.co/z23pYQp/Main-Image-6.png"
+                height={400}
+                width={450}
                 alt="javascript"
               />
 
@@ -68,10 +81,17 @@ const Blog = () => {
             </dialog>
           </div>
         </div>
-        <div className="ml-5 mt-10">
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="ml-5 mt-10"
+        >
           <div className="container-full bg-sky-950 h-screen text-white">
             <div className="card relative  w-96 h-62 bg-base-200  border ">
-              <img
+              <Image
+                height={400}
+                width={450}
                 className="rounded-2xl h-52"
                 src="https://miro.medium.com/v2/resize:fit:1358/1*G-0bFJ1Q_jffKghQQ3nwrQ.jpeg"
                 alt="javascript"
@@ -126,10 +146,17 @@ const Blog = () => {
             </dialog>
           </div>
         </div>
-        <div className="ml-5 mt-10">
-          <div className="container-full bg-sky-950 h-screen text-white">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          className="ml-5 mt-10"
+        >
+          <div className=" bg-sky-950  text-white">
             <div className="card relative w-96 h-62 bg-base-200  border ">
-              <img
+              <Image
+                height={400}
+                width={450}
                 className="rounded-2xl h-52"
                 src="https://i.ibb.co/C8pHMCy/When-to-Consider-Using-Node-js-0d84032172.jpg"
                 alt="javascript"
@@ -186,10 +213,17 @@ const Blog = () => {
             </dialog>
           </div>
         </div>
-        <div className="ml-5 -mt-80">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          className="ml-5 -mt-80"
+        >
           <div className="container-full bg-sky-950 h-screen text-white">
             <div className="card relative w-96 h-62 bg-base-200  border ">
-              <img
+              <Image
+                height={400}
+                width={450}
                 className="rounded-2xl h-52"
                 src="https://i.ibb.co/KFrNQhF/expressjs-vs-nodejs.jpg"
                 alt="javascript"
@@ -251,10 +285,16 @@ const Blog = () => {
             </dialog>
           </div>
         </div>
-        <div className="ml-5 -mt-80">
+        <div
+      data-aos="zoom-in"
+       data-aos-duration="2000"
+          className="ml-5 -mt-80"
+        >
           <div className="container-full bg-sky-950 h-screen text-white">
             <div className="card relative w-96 h-62 bg-base-200  border ">
-              <img
+              <Image
+                height={400}
+                width={450}
                 className="rounded-2xl h-52"
                 src="https://i.ibb.co/xC8XJnF/1684320792067.png"
                 alt="javascript"
@@ -314,10 +354,17 @@ const Blog = () => {
             </dialog>
           </div>
         </div>
-        <div className="ml-5 -mt-80">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          className="ml-5 -mt-80"
+        >
           <div className="container-full bg-sky-950 h-screen text-white">
             <div className="card relative w-96 h-62 bg-base-200  border ">
-              <img
+              <Image
+                height={400}
+                width={450}
                 className="rounded-2xl h-52"
                 src="https://i.ibb.co/bP3yH2f/maxresdefault.jpg"
                 alt="javascript"
@@ -377,10 +424,17 @@ const Blog = () => {
             </dialog>
           </div>
         </div>
-        <div className="ml-5 -mt-80 relative">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          className="ml-5 -mt-80 "
+        >
           <div className="container-full bg-sky-950 h-screen text-white">
             <div className="card relative w-96 h-62 bg-base-200  border ">
-              <img
+              <Image
+                height={400}
+                width={450}
                 className="rounded-2xl h-52"
                 src="https://i.ibb.co/F3PvwQ5/Useful-HTML5-CSS3-Tips-and-Tricks.png"
                 alt="javascript"

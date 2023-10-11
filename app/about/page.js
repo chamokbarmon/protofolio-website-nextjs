@@ -13,6 +13,7 @@ import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Image from "next/image";
 
 const aboutUS = () => {
   useEffect(() => {
@@ -20,7 +21,7 @@ const aboutUS = () => {
   }, []);
 
   const openMailPopup=()=>{
-    const emailAddress = 'example@example.com';
+    const emailAddress = 'chamokjobmail33@gmail.com';
     const subject = 'Hello How are you';
   
   
@@ -91,16 +92,20 @@ const aboutUS = () => {
 
             <Link href="https://app.netlify.com/teams/chamokbarmon/overview">
               {" "}
-              <img
-                className="w-20 h-10  text-white imgTop"
+              <Image
+                className="  text-white mt-32"
                 src="https://i.ibb.co/WPtpRss/Netlify-logo-svg.png"
+                width={100}
+                height={100}
               />
             </Link>
             <Link href=''>
               {" "}
-              <img
+              <Image
+               width={100}
+               height={100}
                 onClick={openMailPopup}
-                className="w-10 h-8 mt-2 text-white imgTop"
+                className="w-10 h-8 text-white mt-32 "
                 src="https://www.computerhope.com/jargon/g/gmail.png"
               />
             </Link>

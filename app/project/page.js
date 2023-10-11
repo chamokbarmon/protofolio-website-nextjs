@@ -3,13 +3,14 @@ import React, { useEffect } from "react";
 import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from "next/image";
 
 const Project = () => {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
-    <div className="container-full bg-sky-950 container-full p-5">
+    <div className="container-full overflow-hidden bg-sky-950 container-full p-5">
       <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 ml-10  gap-9 ">
         <div
           data-aos="fade-right"
@@ -18,7 +19,9 @@ const Project = () => {
           className="card w-96 bg-base-100 shadow-xl p-2"
         >
           <figure>
-            <img
+            <Image
+              height={500}
+              width={600}
               className="h-52 rounded"
               src="https://i.ibb.co/j8qqr3L/capture1.png"
               alt="banar"
@@ -61,7 +64,9 @@ const Project = () => {
           className="card w-96 bg-base-100 shadow-xl  p-2"
         >
           <figure>
-            <img
+            <Image
+             height={500}
+             width={600}
               className="h-52 rounded"
               src="https://i.ibb.co/2gt3MgT/Capture3.png"
               alt="benar"
@@ -104,7 +109,9 @@ const Project = () => {
           className="card w-96 bg-base-100 shadow-xl  p-2"
         >
           <figure>
-            <img
+            <Image
+             height={500}
+             width={600}
               className="h-52 rounded"
               src="https://i.ibb.co/ypkCPFD/Capture6.png"
               alt="banar"
@@ -147,7 +154,9 @@ const Project = () => {
           className="card w-96 bg-base-100 shadow-xl  p-2"
         >
           <figure>
-            <img
+            <Image
+             height={500}
+             width={600}
               className="h-52 rounded"
               src="https://i.ibb.co/JCPYF6B/Capture5.png"
               alt="banar"
@@ -190,7 +199,9 @@ const Project = () => {
           className="card w-96 bg-base-100 shadow-xl  p-2"
         >
           <figure>
-            <img
+            <Image
+             height={500}
+             width={600}
               className="h-52 rounded"
               src="https://i.ibb.co/GvbVNFv/Capture2.png"
               alt="banar"
@@ -235,7 +246,9 @@ const Project = () => {
           className="card w-96 bg-base-100 shadow-xl  p-2"
         >
           <figure>
-            <img
+            <Image
+             height={500}
+             width={600}
               className="h-52 rounded"
               src="https://i.ibb.co/vj5kPXg/Capture7.png"
               alt="banar"
@@ -278,7 +291,9 @@ const Project = () => {
           className="card w-96 bg-base-100 shadow-xl  p-2"
         >
           <figure>
-            <img
+            <Image
+             height={500}
+             width={600}
               className="h-52 rounded"
               src="https://i.ibb.co/vdjL8RQ/Capture8.png"
               alt="banar"
