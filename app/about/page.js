@@ -46,15 +46,15 @@ const aboutUS = () => {
             <div className="gap-4 mt-52  ">
               <p className="text">*Personal Information*</p>
               <p className="mt-2 mb-2">
-                {"< "}Chamok Bamron{" />"}{" "}
+                Chamok Bamron
               </p>
               <Typewriter
                 className="mt-2"
                 options={{
                   strings: [
-                    "Front-End-Developer ",
-                    "Programmer ||",
-                    "Web developer ",
+                    "< Front-End-Developer />",
+                    "< Programmer />",
+                    "< Web developer />",
                   ],
                   autoStart: true,
                   loop: true,

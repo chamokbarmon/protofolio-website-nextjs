@@ -40,10 +40,10 @@ const Menubar = () => {
           <Link className=" hover:text-red-500" href="/skills">
             Skills
           </Link>
-          <Link className=" hover:text-red-500" href="/blog">
+          <Link className=" hover:text-red-700" href="/blog">
             Blog
           </Link>
-          <Link className=" hover:text-red-500" href="/contact">
+          <Link className=" hover:text-black" href="/contact">
           Contact us
           </Link>
           </ul>
@@ -58,28 +58,28 @@ const Menubar = () => {
       </div>
       <div className="container-full navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-base cursor-pointer  gap-10">
-          <Link className=" hover:text-red-500" href="/">
+          <Link className="  hover:text-orange-500" href="/">
             Home
           </Link>
-          <Link className=" hover:text-red-500" href="/about">
+          <Link className=" hover:text-orange-500" href="/about">
             About us
           </Link>
-          <Link className=" hover:text-red-500" href="/project">
+          <Link className=" hover:text-orange-500" href="/project">
             Project
           </Link>
-          <Link className=" hover:text-red-500" href="/skills">
+          <Link className=" hover:text-orange-500" href="/skills">
             Skills
           </Link>
-          <Link className=" hover:text-red-500" href="/blog">
+          <Link className=" hover:text-orange-500" href="/blog">
             Blog
           </Link>
-          <Link className=" hover:text-red-500" href="/contact">
+          <Link className=" hover:text-orange-500" href="/contact">
           Contact us
           </Link>
         </ul>
       </div>
-      <div className="navbar-end">
-        <Link href="https://drive.google.com/file/d/1qVUCYGDp3YANoZBsFtRSggLiskjTIFam/view?usp=sharing" target="blank" className="border outline-1 p-2 rounded-2xl">Resume</Link>
+      <div className="navbar-end ">
+        <Link href="https://drive.google.com/file/d/1qVUCYGDp3YANoZBsFtRSggLiskjTIFam/view?usp=sharing" target="blank" className="border outline-1 hover:bg-orange-500 p-2 rounded-2xl">Resume</Link>
       </div>
     </div>
   );

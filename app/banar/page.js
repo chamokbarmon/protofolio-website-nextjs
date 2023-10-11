@@ -35,9 +35,9 @@ const Banar = () => {
           <Typewriter
             options={{
               strings: [
-                " Front-End-Developer  ",
-                "Programmer ||",
-                "Web developer ",
+                "< Front-End-Developer />",
+                "< Programmer />",
+                "< Web developer />",
               ],
               autoStart: true,
               loop: true,
@@ -51,8 +51,8 @@ const Banar = () => {
           with leadership abilities to meet client needs and exceed their
           expectations.
         </p>
-        <button className="rounded-xl border p-2 outline-1  mt-5"><Link href="/contact"  >Contact us</Link></button>
-        <button className="rounded-xl border p-2 outline-1 ml-2 mt-5"><Link href="/"  onClick={openMailPopup}  >Mail me </Link></button>
+        <button className="rounded-xl border p-2 outline-1 hover:bg-red-700 mt-5"><Link href="/contact"  >Contact us</Link></button>
+        <button className="rounded-xl border p-2 outline-1 hover:bg-red-700 ml-2 mt-5"><Link href="/"  onClick={openMailPopup}  >Mail me </Link></button>
       </div>
       <div data-aos="zoom-in-up"  data-aos-duration="1000" className="ml-10 mt-16 h-screen bg-sky-950">
         <Image
