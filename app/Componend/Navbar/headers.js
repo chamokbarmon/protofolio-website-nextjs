@@ -79,7 +79,7 @@ const Menubar = () => {
         </ul>
       </div>
       <div className="navbar-end ">
-        <Link href="https://drive.google.com/file/d/1qVUCYGDp3YANoZBsFtRSggLiskjTIFam/view?usp=sharing" target="blank" className="border outline-1 hover:bg-orange-500 p-2 rounded-2xl">Resume</Link>
+        <Link href="https://drive.google.com/file/d/1GXN0iA_vwvju_TwXMnvr991Nv7OUEt2D/view?usp=sharing" target="blank" className="border outline-1 hover:bg-orange-500 p-2 rounded-2xl">Resume</Link>
       </div>
     </div>
   );
