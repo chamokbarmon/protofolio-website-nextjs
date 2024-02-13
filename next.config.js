@@ -7,7 +7,6 @@ const nextConfig = {
          {
             protocol:"https",
             hostname:"i.ibb.co"
-
          },
          {
             protocol:"https",
@@ -44,11 +43,14 @@ const nextConfig = {
          {
             protocol:"https",
             hostname:"www.quanle.me"
+         },
+         {
+            protocol:"https",
+            hostname:"image.similarpng.com"
          }
+
         ]
    }
-
-
 }
 
 module.exports = nextConfig
